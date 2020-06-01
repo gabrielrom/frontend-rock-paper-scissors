@@ -1,0 +1,78 @@
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-top: 40px;
+}
+
+.options-game {
+  display: flex;
+  margin-top: 50px;
+  z-index: 1;
+}
+
+.options-game button {
+  transition: transform 0.5s;
+  box-shadow: 0 6px 2px 3px rgba(0, 0, 0, 13%) inset;
+}
+
+.options-game button:hover {
+  transform: translateY(-5px);
+}
+
+
+.options-game button + button {
+  margin-left: 80px;
+}
+
+.paper  {
+  display: flex;
+  border: 20px solid hsl(230, 89%, 62%);
+  border-radius: 50%;
+  background: #fff;
+  padding: 40px;
+
+  align-items: center;
+}
+
+.rock {
+  display: flex;
+  margin-top: 30px;
+  border: 20px solid hsl(349, 71%, 52%);
+  border-radius: 50%;
+  background: #fff;
+  padding: 40px;
+
+  align-items: center;
+  z-index: 1;
+
+  box-shadow: 0 6px 2px 3px rgba(0, 0, 0, 13%) inset;
+}
+
+.rock {
+  transition: transform 0.5s;
+}
+
+.rock:hover {
+  transform: translateY(5px);
+}
+
+.scissor {
+  display: flex;
+  border: 20px solid linear-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+  border-radius: 50%;
+  padding: 40px;
+
+  box-shadow: 2px rgba(0, 0, 0, 0.6px);
+  align-items: center;
+}
+
+.bg-triangle {
+  position: absolute;
+  top: 315px;
+  z-index: 0;
+}
+
+
+

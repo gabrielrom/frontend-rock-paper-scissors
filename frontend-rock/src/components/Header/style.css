@@ -1,0 +1,36 @@
+.header-score {
+  display: flex;
+  flex-direction: row;
+
+  border: 2px solid hsl(217, 16%, 45%);
+  border-radius: 20px;
+
+  width: 800px;
+  padding: 20px;
+  justify-content: space-between;
+
+}
+
+.score {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  width: 120px;
+
+  flex-direction: column;
+}
+
+.score p {
+  margin: 10px 0 7px 0;
+
+  color: hsl(229, 64%, 46%);
+
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+.score strong {
+  font-size: 42px;
+  font-weight: bold;
+  color: hsl(229, 25%, 31%);
+}

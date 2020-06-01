@@ -1,1 +1,0 @@
-# frontend-rock-paper-scissors

@@ -1,0 +1,122 @@
+.options {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 40px;
+}
+
+.options button {
+  cursor: default;
+  box-shadow: 0 6px 2px 3px rgba(0, 0, 0, 13%) inset;
+}
+
+.option-user {
+  display: flex;
+
+  flex-direction: column;
+  align-content: center;
+
+}
+
+.option-user p {
+  padding: 0 50px;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+}
+
+.option-computer{
+  display: flex;
+
+  flex-direction: column;
+  align-content: center;
+}
+
+
+.option-computer p {
+  margin-bottom: 50px;
+  letter-spacing: 5px;
+
+}
+
+.button {
+  display: flex;
+  place-content: center;
+}
+
+.paper  {
+  border: 20px solid hsl(230, 89%, 62%);
+  border-radius: 50%;
+  background: #fff;
+  padding: 40px;
+  max-width: 168px;
+}
+
+.option-off {
+  margin-top: 20px;
+  border-radius: 50%;
+  background: hsl(237, 49%, 15%);
+  opacity: 0.4;
+
+  width: 150px;
+  height: 150px;
+}
+
+.rock-options {
+  border: 20px solid hsl(349, 71%, 52%);
+  border-radius: 50%;
+  background: #fff;
+  padding: 40px;
+  max-width: 168px;
+}
+
+.scissor {
+  border: 20px solid  hsl(39, 89%, 49%);
+  border-radius: 50%;
+  background: #fff;
+  padding: 40px;
+  max-width: 168px;
+
+}
+
+.result {
+  display: flex;
+
+  flex-direction: column;
+  place-content: center;
+  padding: 0 50px;
+  margin-top: 60px;
+}
+
+.result button {
+  cursor: pointer;
+}
+
+.result-text {
+  font-size: 31px;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.result-button {
+  border: 0;
+  padding: 8px 40px;
+  color: hsl(229, 64%, 46%);
+  font-size: 12px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+
+  transition: padding 0.5s;
+}
+
+.result-button:hover {
+  border: 0;
+  padding: 10px 45px;
+  color: hsl(229, 64%, 46%);
+  font-size: 12px;
+  border-radius: 4px;
+  letter-spacing: 2px;
+}
+
+
+
